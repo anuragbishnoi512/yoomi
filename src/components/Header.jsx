@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <div className="bg-softBlue">
-      <div className=" max-w-[1162px] px-3 mx-auto">
+      <div className="container">
         <div className="pt-8 flex justify-between items-center">
           <img src={mainLogo} alt="logo" />
           <div className={`${nav ? "right-0" : "right-[-100%]"} flex gap-7 items-center justify-between z-[50] max-md:gap-[26px] max-md:fixed max-md:bg-white max-md:w-full max-md:h-full max-xl:top-0 max-md:flex-col max-md:justify-center duration-300`}>
