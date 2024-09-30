@@ -20,6 +20,7 @@ module.exports = {
         'snowWhite': "#FFFFFF33",
         'lightBlue': "#82B2C2",
         'darkCyan': "#076787",
+        'softBlue':"#F8FDFF"
       },
       container: {
         center: true,

@@ -2,7 +2,11 @@ import React from 'react'
 
 const Workout = () => {
   return (
-    <div>Workout</div>
+    <div className='container'>
+      <div>
+
+      </div>
+    </div>
   )
 }
 
