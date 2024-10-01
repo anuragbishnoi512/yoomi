@@ -2,7 +2,11 @@ import React from 'react'
 
 const Feedback = () => {
   return (
-    <div>Feedback</div>
+    <div>
+      <div className="container">
+        
+      </div>
+    </div>
   )
 }
 
