@@ -12,7 +12,7 @@ const Hero = () => {
           </h1>
           <p className='font-inter font-normal text-2xl leading-7 opacity-70 mt-2'>Industry leading AI motion-tracking technology</p>
           <form id='fromEmail' className='max-w-[428px] w-full p-1.5 mx-auto bg-white rounded flex justify-between items-center mt-7 lg:mt-14 shadow-3xl'>
-            <input type="email" placeholder='Enter Your Email' value={email} onChange={(e) => setEmail(e.target.value)} className='font-inter font-medium placeholder:text-black text-base opacity-70 px-1.5 outline-none max-w-[292px] w-full' />
+            <input type="email" placeholder='Enter Your Email' value={email} onChange={(e) => setEmail(e.target.value)} required className='font-inter font-medium placeholder:text-black text-base opacity-70 px-1.5 outline-none max-w-[292px] w-full' />
             <CommonButton button="Get Started" />
           </form>
         </div>
