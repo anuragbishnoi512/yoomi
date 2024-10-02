@@ -6,7 +6,7 @@ import rangeMotion from '../assets/images/webp/range-motion.webp'
 
 const Analytics = () => {
   return (
-    <div className='mt-[97px]'>
+    <div className='my-[97px]'>
       <div className="container">
         <div className='justify-between w-full p-[48px_37px_47px_34px] shadow-4xl flex rounded-[32px] items-center'>
           <div className='w-[404px] h-[218px]'>
