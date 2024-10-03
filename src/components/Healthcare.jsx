@@ -4,6 +4,7 @@ import carol from '../assets/images/webp/carol.webp'
 import rwj from '../assets/images/webp/rwj.webp'
 import jaj from '../assets/images/webp/jaj.webp'
 import cornell from '../assets/images/webp/cornell.webp'
+import SwiperSlider from './SwiperSlider'
 const Healthcare = () => {
   return (
     <div>
@@ -28,6 +29,13 @@ const Healthcare = () => {
           <div className='border p-[23px_57px_23px_57px] max-w-[207.83px] shadow-5xl rounded'>
             <img src={cornell} alt="icon/image" className='max-w-[92.53px]' />
           </div>
+        </div>
+        <div className='flex items-center flex-col' >
+          <p className='font-inter font-medium text-base text-center text-darkCyan'>KNOW MORE</p>
+          <h2 className='font-plus font-normal text-custom-xl leading-custom-xl text-center max-w-[615.74px] mt-2'>And Used by the Biggest <span className='font-semibold'>Figures in Sports and Rehab</span></h2>
+        </div>
+        <div>
+          <SwiperSlider />
         </div>
       </div>
     </div>
